@@ -8,13 +8,18 @@
     "build": "echo 'Build completed - static files ready'",
     "start": "echo 'Static app - no server needed'"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "@vercel/speed-insights": "^1.2.0"
+  },
   "engines": {
     "node": "22.x"
   },
-  "keywords": ["finance", "portfolio", "charles-gave", "investment"],
+  "keywords": [
+    "finance",
+    "portfolio",
+    "charles-gave",
+    "investment"
+  ],
   "author": "Your Name",
   "license": "MIT"
 }
-
