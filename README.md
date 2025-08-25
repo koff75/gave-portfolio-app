@@ -32,7 +32,7 @@ Application web d'analyse de portefeuille inspirée de la méthode Charles Gave,
 ### Installation
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/gave-portfolio-app.git
+git clone https://github.com/koff75/gave-portfolio-app.git
 cd gave-portfolio-app
 
 # Installer les dépendances
@@ -103,12 +103,6 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 - **Site non-officiel** : Non affilié à Charles Gave ou à l'Institut des Libertés
 - **Utilisation à vos risques** : Les résultats ne garantissent pas de performance future
 
-## 📞 Support
-
-Pour toute question ou problème :
-- Ouvrez une [Issue](https://github.com/votre-username/gave-portfolio-app/issues)
-- Consultez la [documentation Vercel](https://vercel.com/docs)
-
 ---
 
-**Développé avec ❤️ pour la communauté des investisseurs francophones**
+**Développé avec ❤️ **
