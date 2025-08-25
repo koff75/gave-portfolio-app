@@ -1,10 +1,10 @@
 # 🚀 Portfolio Gave App - Outil d'analyse de portefeuille
 
-> **⚠️ Disclaimer :** Cet outil est **indépendant et non-officiel**. Il s'inspire des principes publics de Charles Gave mais n'est pas affilié à Charles Gave ou à l'Institut des Libertés.
+> **⚠️ Disclaimer :** Cet outil est **indépendant et non-officiel**. Il s'inspire des principes publics mais n'est affilié à personnes.
 
 ## 📋 Description
 
-Application web d'analyse de portefeuille inspirée de la méthode Charles Gave, permettant d'optimiser l'allocation d'actifs selon les principes du portefeuille permanent amélioré.
+Application web d'analyse de portefeuille inspirée d'une méthode, permettant d'optimiser l'allocation d'actifs selon les principes du portefeuille permanent amélioré.
 
 ## ✨ Fonctionnalités
 
@@ -71,7 +71,7 @@ gave-portfolio-app/
 - ✅ **Validation des endpoints** autorisés
 - ✅ **Gestion d'erreurs** sécurisée
 
-## 📚 Méthode Charles Gave
+## 📚 Méthode
 
 Cet outil implémente les concepts de :
 - **Portefeuille permanent amélioré**
@@ -96,12 +96,6 @@ Les contributions sont les bienvenues ! Veuillez :
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
-
-## ⚠️ Avertissements légaux
-
-- **Pas de conseil financier** : Cet outil est à des fins éducatives uniquement
-- **Site non-officiel** : Non affilié à Charles Gave ou à l'Institut des Libertés
-- **Utilisation à vos risques** : Les résultats ne garantissent pas de performance future
 
 ---
 
