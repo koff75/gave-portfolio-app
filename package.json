@@ -1,0 +1,20 @@
+{
+  "name": "gave-portfolio-app",
+  "version": "1.0.0",
+  "description": "Application Charles Gave - Gestion de Portefeuille",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Build completed - static files ready'",
+    "start": "echo 'Static app - no server needed'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": ["finance", "portfolio", "charles-gave", "investment"],
+  "author": "Your Name",
+  "license": "MIT"
+}
+

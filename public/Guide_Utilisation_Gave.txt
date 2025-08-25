@@ -1,0 +1,100 @@
+
+📊 GUIDE D'UTILISATION - TABLEAU EXCEL MÉTHODE GAVE
+==================================================
+
+🎯 COMMENT UTILISER VOTRE TABLEAU EXCEL :
+
+1️⃣ ONGLET "Mon_Portefeuille" - VOTRE TABLEAU DE BORD PRINCIPAL
+   • Ligne 2: Mettez votre salaire annuel (ex: 115000)
+   • Ligne 3: Mettez votre loyer mensuel (ex: 1800) 
+   • Ligne 4: Mettez votre épargne mensuelle (ex: 1832)
+   • Lignes 13-16: ENTREZ VOS MONTANTS ACTUELS dans chaque actif
+   • Le tableau calculera automatiquement:
+     - Vos allocations actuelles (%)
+     - Les allocations cibles selon Gave
+     - Les montants à acheter/vendre
+
+2️⃣ MISE À JOUR DES SIGNAUX (Mensuelle)
+   • Allez sur Yahoo Finance ou votre broker
+   • Récupérez les prix de:
+     - MSCI World (Actions) 
+     - Or (SPDR Gold Trust ou équivalent)
+     - Obligations gouvernementales 10 ans
+   • Dans l'onglet "Données_Historiques", ajoutez une nouvelle ligne
+   • Les signaux se mettront à jour automatiquement
+
+3️⃣ REBALANCEMENT (Tous les 3 mois)
+   • Dates fixes: 15 mars, 15 juin, 15 septembre, 15 décembre
+   • Dans "Mon_Portefeuille", regardez la colonne "Action"
+   • Si écrit "AJUSTER" → vous devez rebalancer cet actif
+   • Utilisez les "MONTANTS À AJUSTER" pour savoir combien acheter/vendre
+
+4️⃣ LES FORMULES CLÉS QUE VOUS DEVEZ COMPRENDRE :
+
+   SIGNAL OR vs OBLIGATIONS:
+   =SI(Ratio_Or_Obligations > MM7ans_Or_Obligations;"OR";"OBLIGATIONS")
+
+   SIGNAL ACTIONS:
+   =SI(Ratio_Actions_Or > MM7ans_Actions_Or;"GARDER_ACTIONS";"SORTIR_ACTIONS")
+
+   ALLOCATION ACTIONS:
+   =SI(Signal_Actions="GARDER_ACTIONS";33,33;0)
+
+   ALLOCATION OR:
+   =SI(Signal_Or_Obligations="OR";33,33;0)
+
+   ALLOCATION OBLIGATIONS:
+   =SI(Signal_Or_Obligations="OBLIGATIONS";33,33;0)
+
+   ALLOCATION CASH:
+   =100-(Allocation_Actions+Allocation_Or+Allocation_Obligations)
+
+5️⃣ INTERPRÉTATION DES SIGNAUX :
+
+   📈 "GARDER_ACTIONS" + "OBLIGATIONS" = Période déflationniste normale
+   → 33% Actions, 33% Obligations, 33% Cash
+
+   📈 "GARDER_ACTIONS" + "OR" = Période inflationniste  
+   → 33% Actions, 33% Or, 33% Cash
+
+   🚨 "SORTIR_ACTIONS" + "OR" = Grizzly Bear en approche!
+   → 0% Actions, 33% Or, 67% Cash
+
+   🚨 "SORTIR_ACTIONS" + "OBLIGATIONS" = Déflation dépression
+   → 0% Actions, 33% Obligations, 67% Cash
+
+6️⃣ EXEMPLE CONCRET AVEC VOS 50 000€ :
+
+   Signal actuel: GARDER_ACTIONS + OBLIGATIONS
+
+   Allocation cible:
+   • Actions: 16 667€ (33.33%)
+   • Obligations: 16 667€ (33.33%) 
+   • Cash: 16 667€ (33.33%)
+   • Or: 0€ (0%)
+
+   Si vous avez actuellement:
+   • Actions: 16 500€ → OK (écart -1%)
+   • Or: 16 500€ → VENDRE 16 500€ (écart +33%)
+   • Obligations: 16 500€ → OK (écart -1%)
+   • Cash: 500€ → ACHETER 16 167€ (écart -32%)
+
+   Action: Vendre tout l'or, mettre en cash
+
+7️⃣ AUTOMATISATION POSSIBLE :
+   • Connectez à une API financière (Yahoo Finance, Alpha Vantage)
+   • Automatisez la mise à jour des prix
+   • Alertes email pour rebalancement
+   • Interface Power BI pour visualisation
+
+8️⃣ ETFs RECOMMANDÉS POUR LA FRANCE :
+   • Actions: CW8 (MSCI World) ou EWLD
+   • Or: SGLD (Amundi Gold) ou AAAU
+   • Obligations: AGOV (iShares Government) ou GOVT
+   • Cash: Compte épargne ou ETF monétaire
+
+⚠️ IMPORTANT:
+   • Ne modifiez JAMAIS les formules sans comprendre
+   • Sauvegardez avant toute modification
+   • Testez avec de petits montants d'abord
+   • La méthode Gave demande de la DISCIPLINE !

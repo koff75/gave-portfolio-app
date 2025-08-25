@@ -1,0 +1,33 @@
+
+🇫🇷 ETFs RECOMMANDÉS POUR LA FRANCE (PEA Compatible)
+===================================================
+
+ACTIONS (33% du portefeuille):
+• CW8 - iShares Core MSCI World (TER 0.20%)
+• EWLD - iShares MSCI World (TER 0.50%) 
+• Alternative: ETF Europe + US séparément
+
+OR (0-33% selon signal):
+• SGLD - Amundi Physical Gold (TER 0.15%)
+• Pas disponible en PEA → Compte-titres obligatoire
+• Alternative: Actions aurifères (risqué)
+
+OBLIGATIONS (0-33% selon signal):  
+• AGOV - iShares Government Bond 7-10yr (TER 0.20%)
+• Alternative: Fonds euro en assurance-vie
+
+CASH (33-67% selon situation):
+• Livret A (3% nets, pas d'impôt)
+• LDDS (3% nets, pas d'impôt)
+• PEL si taux intéressant
+• ETF monétaire en PEA: AUME ou AMESM
+
+⚠️ CONTRAINTE PEA:
+• Pas d'or physique/ETF possible
+• Solution: Remplacer OR par actions aurifères 
+• Ou gérer OR hors PEA (compte-titres)
+
+💡 STRATÉGIE OPTIMALE:
+• PEA: Actions + Cash
+• Compte-titres: Or + Obligations 
+• Total respecte les % Gave

@@ -1,0 +1,83 @@
+
+💰 EXEMPLE CONCRET AVEC VOS CHIFFRES PERSONNELS
+===============================================
+
+👤 VOTRE PROFIL:
+• Salaire: 115 000€ brut/an 
+• Loyer: 1 800€/mois
+• Épargne: 1 832€/mois
+• Portefeuille actuel: 50 000€
+
+📊 SITUATION ACTUELLE (Août 2025):
+Signal détecté: OBLIGATIONS (période déflationniste)
+Actions: GARDER (pas de Grizzly en vue)
+
+🎯 ALLOCATION CIBLE SELON GAVE:
+• Actions: 16 667€ (33.33%)
+• Obligations: 16 667€ (33.33%)
+• Cash: 16 667€ (33.33%)
+• Or: 0€ (signal dit OBLIGATIONS, pas OR)
+
+📈 DANS LE TABLEAU EXCEL - ONGLET "Mon_Portefeuille":
+
+Ligne 2: Salaire = 115000
+Ligne 3: Loyer = 1800  
+Ligne 4: Épargne = 1832
+Ligne 8: Total = 50000
+
+PUIS VOUS ENTREZ VOS MONTANTS ACTUELS:
+Ligne 13: Actions = [VOTRE_MONTANT] 
+Ligne 14: Or = [VOTRE_MONTANT]
+Ligne 15: Obligations = [VOTRE_MONTANT]
+Ligne 16: Cash = [VOTRE_MONTANT]
+
+🔄 LE TABLEAU CALCULE AUTOMATIQUEMENT:
+
+Si par exemple vous avez:
+• Actions: 20 000€ (40%) → Cible 33.33% → VENDRE 3 333€
+• Or: 15 000€ (30%) → Cible 0% → VENDRE tout (15 000€)
+• Obligations: 10 000€ (20%) → Cible 33.33% → ACHETER 6 667€
+• Cash: 5 000€ (10%) → Cible 33.33% → ACHETER 11 667€
+
+📋 ACTIONS À PRENDRE:
+1. Vendre 3 333€ d'actions
+2. Vendre 15 000€ d'or  
+3. Acheter 6 667€ d'obligations
+4. Le reste (11 667€) va en cash
+
+✅ RÉSULTAT FINAL:
+• Actions: 16 667€ ✓
+• Or: 0€ ✓
+• Obligations: 16 667€ ✓  
+• Cash: 16 667€ ✓
+• Total: 50 000€ ✓
+
+🔔 ALERTES DANS LE TABLEAU:
+• Colonne "Action": Affiche "AJUSTER" si écart > 5%
+• Colonne "Montant à ajuster": Calcule automatiquement combien acheter/vendre
+• Rebalancement: Tous les 3 mois (15/03, 15/06, 15/09, 15/12)
+
+⚡ MISE À JOUR MENSUELLE:
+1. Récupérez les prix sur Yahoo Finance:
+   - MSCI World (Actions)
+   - Gold ETF (Or) 
+   - Government Bonds 10Y (Obligations)
+2. Ajoutez une ligne dans "Données_Historiques"
+3. Les signaux se mettent à jour automatiquement
+4. Votre allocation cible change si signaux changent
+
+🎯 EXEMPLE SI SIGNAL CHANGE:
+Si demain le signal devient "OR" au lieu de "OBLIGATIONS":
+→ Le tableau passera automatiquement la cible Or à 33.33%
+→ Et la cible Obligations à 0%
+→ Vous verrez "AJUSTER" et saurez quoi faire
+
+🏆 AVANTAGES DE CE SYSTÈME:
+✓ Zéro émotion: les maths décident
+✓ Zéro timing: vous suivez les signaux
+✓ Zéro stress: maximum -10% selon Gave
+✓ Zéro complexité: 4 actifs maximum
+✓ Performance: 4-6% réels/an historiquement
+
+Cette méthode a survécu à 1929, 1970, 2000, 2008... 
+Elle devrait survivre à 2025+ ! 🛡️

@@ -1,0 +1,92 @@
+---
+alwaysApply: false
+---
+**Prompt pour la création d'un site web interactif de gestion de portefeuille**
+
+**Objectif du projet :**
+Développer un site web qui transforme les principes du livre "Cessez de vous faire avoir" en un workflow utilisateur clair et actionnable. Le site doit guider les visiteurs pour suivre et gérer leurs investissements afin de prendre des décisions éclairées et autonomes, sans dépendre de conseils externes ni de statistiques officielles. L'ergonomie et l'expérience utilisateur doivent être de la plus haute qualité, rappelant les standards de design et de simplicité d'Apple.
+
+**Philosophie sous-jacente (selon le livre) :**
+*   **Autonomie :** Inciter l'utilisateur à prendre en main sa propre épargne et sa sécurité financière [1-3].
+*   **Méfiance envers l'État :** Baser les décisions sur les signaux des marchés plutôt que sur les informations ou institutions étatiques [4, 5].
+*   **Simplicité & Robustesse :** Démontrer qu'une gestion efficace est simple et ne nécessite pas de prévisions complexes [6-8].
+
+**Public Cible :**
+Épargnants francophones souhaitant gérer leur patrimoine de manière autonome et sécurisée, sans connaissances financières préalables approfondies.
+
+**Structure du site et parcours utilisateur (workflow) :**
+
+**1. Accueil / Introduction ("Cessez de vous faire avoir") :**
+*   **Message clé :** "Reprenez le contrôle de votre épargne et assurez votre avenir financier." [2, 3]
+*   **Engagement :** Expliquer pourquoi l'autonomie est cruciale face aux échecs de la gestion étatique [4, 9, 10].
+*   **Promesse :** Le site vous guidera étape par étape pour appliquer la méthode du livre.
+
+**2. Comprendre les Ingrédients ("Les Ingrédients") :**
+*   **Objectif :** Éduquer l'utilisateur sur les quatre actifs fondamentaux et leur comportement.
+*   **Contenu par Fiche (Présentation visuelle claire avec icônes/graphiques simplifiés) :**
+    *   **Fiche 1 : Les 4 Quadrants Économiques :**
+        *   Explication interactive des deux questions : croissance vs. décroissance (volume), inflation vs. déflation (prix) [11].
+        *   Présentation visuelle des 4 scénarios (Boom Déflationniste, Boom Inflationniste, Récession Inflationniste, Déflation Dépression) [12].
+        *   Quel actif performe dans chaque quadrant [12, 13].
+    *   **Fiches 2, 3, 4, 5 : Description Détaillée des Actifs (Cash, Obligations 10 ans, Or, Actions) :**
+        *   Pour chaque actif : Définition juridique, pourquoi l'utiliser, performance historique (simplifiée, sans chiffres exacts mais tendances), risques et avantages selon le livre [14-35].
+        *   **Focus Or :** Rôle de "monnaie ultime" et étalon de valeur contre la manipulation étatique [25, 26, 36].
+        *   **Focus Actions :** Volatilité importante mais performance long terme si dividendes réinvestis [32, 34].
+    *   **Fiche 6 : Logique des Quatre Actifs :** Expliquer pourquoi diversifier est essentiel face à la volatilité des actifs pris isolément [37-39].
+
+**3. Construire Votre Portefeuille ("La Façon de Mélanger les Ingrédients") :**
+*   **Objectif :** Aider l'utilisateur à assembler son portefeuille.
+*   **Contenu par Fiche (avec des simulateurs/visualiseurs interactifs) :**
+    *   **Fiche 7 & 8 : Le Portefeuille Permanent d'Harry Browne :**
+        *   Principe : 1/4 Cash, 1/4 Obligations, 1/4 Or, 1/4 Actions, rebalancement trimestriel [7, 40, 41].
+        *   Performance historique stable (4% réels/an avec faible volatilité) [40, 42, 43].
+        *   Simulateur simple pour visualiser l'effet du rebalancement.
+    *   **Fiche 9 : Raisons de la Stabilité :** Expliquer comment le portefeuille s'adapte aux 4 quadrants économiques [44, 45].
+    *   **Fiche 10 : Le Portefeuille "Université de l'Épargne" (Amélioré) :**
+        *   Principe : 1/3 Actions, 1/3 Cash, 1/3 *soit Or, soit Obligations* [46].
+        *   **Outil de Décision Or/Obligations :**
+            *   Basé sur le ratio Or/Obligations et sa moyenne mobile à 7 ans [47].
+            *   Interface utilisateur : Afficher le ratio actuel et sa MM7, indiquer clairement si l'utilisateur doit être en Or ou en Obligations. Indication simple des périodes "inflationnistes" vs "non-inflationnistes" [48, 49].
+            *   Justification : Permet une meilleure performance (5-6% réels/an) [46, 50].
+
+**4. Personnaliser Votre Portefeuille ("Ajouter des Épices") :**
+*   **Objectif :** Offrir des options d'ajustement basées sur les fiches et questions du livre.
+*   **Contenu (avec conseils clairs et avertissements) :**
+    *   **Fiche 11 & 12 : Le Rôle de l'Or et les "Grizzlys" (Ursus Magnus) :**
+        *   Explication des valeurs de rareté (or) et d'efficacité (actions) [51-53].
+        *   **Outil de Détection des Grizzlys :**
+            *   Basé sur le ratio Actions/Or et sa moyenne mobile à 7 ans [54, 55].
+            *   Interface utilisateur : Afficher le ratio actuel et sa MM7, indiquer clairement si le marché est en "Grizzly" (actions sous-performent l'or sur 7 ans) et donc s'il faut passer des actions au cash/or [55, 56].
+            *   Expliquer que c'est une règle de prudence pour sortir quand on ne comprend plus [57].
+    *   **Fiche 13 & 14 : Valoriser le Marché (PE Ratio) :**
+        *   Explication simplifiée du PE ratio et son instabilité [58-60].
+        *   Lien avec les prix de l'énergie (sans exiger de prévision de l'utilisateur) [61-63].
+        *   Rappel : la méthode ne nécessite pas de prévision, mais une réaction prédéterminée aux signaux du marché [5, 8].
+    *   **Questions 1 à 4 (sous forme de "Conseils Avancés") :**
+        *   **Actions individuelles vs. Indices :** Liberté de choix, mais recommandation de diversification (min. 10-16 actions, max 3% du portefeuille) et coût des frais de transaction [64, 65].
+        *   **Respect des 33% :** Diverger seulement si "très convaincu" et toujours rebalancer [66, 67].
+        *   **Remplacer les Obligations :** Complexité, préférence pour Or/Cash plutôt que des obligations étrangères corrélées [68-70].
+        *   **Choix du Cash (Yen) :** Le cash comme "robuste" et "amortisseur de volatilité". Possibilité d'utiliser des monnaies "données dans la rue" (ex. Yen) si elles sont très sous-évaluées, avec l'impact sur la volatilité [71, 72].
+
+**5. Tableau de Bord / Suivi des Investissements (Espace Utilisateur Privé, si applicable) :**
+*   **Objectif :** Un hub central où l'utilisateur visualise son portefeuille et les signaux.
+*   **Fonctionnalités proposées :**
+    *   Saisie et suivi simplifié de l'allocation d'actifs de l'utilisateur.
+    *   Visualisation des signaux clés (Or/Obligations et Actions/Or via les moyennes mobiles à 7 ans) [47, 56].
+    *   Alertes ou suggestions visuelles pour le rebalancement trimestriel [40, 67, 73].
+    *   Rappels visuels des "Dix Commandements de l'Université de l'Épargne" [3, 73, 74].
+
+**Design et Expérience Utilisateur (Ergonomie "Apple-like") :**
+*   **Simplicité Visuelle :** Interface épurée, utilisation de la grille, espaces blancs généreux.
+*   **Clarté du Contenu :** Langage concis, absence de jargon inutile (ou avec info-bulles explicatives), progression logique.
+*   **Interaction Intuitive :** Navigation fluide, animations subtiles et pertinentes.
+*   **Visualisation des Données :** Graphiques simples et élégants pour illustrer les ratios (Or/Obligations, Actions/Or) et les performances (modélisées), sans surcharge d'information.
+*   **Guidage Pas à Pas :** Le site doit sentir qu'il "tient la main" de l'utilisateur à travers chaque décision, sans être prescriptif, mais en appliquant les règles du livre.
+*   **Personnalisation :** "VOTRE Portefeuille", "VOTRE Tambouille Financière".
+*   **Ton :** Professionnel, rassurant, confiant dans la méthode.
+
+**Contraintes et Précisions :**
+*   **Source Unique :** Toutes les informations et fonctionnalités doivent être dérivées *strictement* du texte fourni de "Cessez de vous faire avoir". Aucune donnée externe ou analyse tierce n'est autorisée.
+*   **Pas de Conseil Financier Direct :** Le site est un *outil* pour appliquer la méthode du livre, pas un conseiller financier. Les recommandations doivent être présentées comme des applications des règles du livre.
+*   **Focus Workflow :** L'accent est mis sur le parcours utilisateur, de la compréhension à l'action.
+

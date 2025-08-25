@@ -1,0 +1,74 @@
+# Variables d'environnement et clés API
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Clés API et secrets
+secrets.json
+config.json
+api-keys.txt
+finnhub-key.txt
+
+# Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+# Fichiers temporaires
+.tmp/
+.temp/
+*.tmp
+*.temp
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers de build
+dist/
+build/
+.next/
+.nuxt/
+.output/
+
+# Fichiers de cache
+.cache/
+.parcel-cache/
+
+# Fichiers de test
+coverage/
+.nyc_output/
+
+# Fichiers de déploiement
+.vercel/
+.netlify/
+
+# Fichiers de sauvegarde
+*.backup
+*.bak
+*.old
+
+# Fichiers de données sensibles
+data/
+uploads/
+private/
+
+# Fichiers de configuration locale
+config.local.js
+settings.local.json
